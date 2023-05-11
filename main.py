@@ -15,3 +15,5 @@ def to_morse(string):
 
 
 user_input = input('Enter a word you want to convert to Morse code: ').upper()
+
+print(to_morse(user_input))
